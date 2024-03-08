@@ -18,8 +18,23 @@ public class Runner {
 
 
     public static void main(String[] args) {
+        Musteri obj = new Musteri();
+        obj.name = "Sema Hanım";
+        ElektrikHesabi hesap = new ElektrikHesabi();
+        obj.elektrikHesabi=hesap;
+        obj.elektrikHesabi.tuketimEkle(100);
+        obj.elektrikHesabi.tuketimEkle(150);
+        System.out.println("obj.elektrikHesabi.toplamTuketim = " + obj.elektrikHesabi.toplamTuketim);
+        System.out.println("obj.elektrikHesabi.ödenecekTutar() = " + obj.elektrikHesabi.ödenecekTutar());
+        System.out.println("obj.elektrikHesabi.fatura = " + obj.elektrikHesabi.fatura);
 
-
+        Musteri obj2=new Musteri();
+        obj2.name = "Safvet Bey";
+        obj2.elektrikHesabi=new ElektrikHesabi();
+        obj2.elektrikHesabi.tuketimEkle(250);
+        obj2.elektrikHesabi.tuketimEkle(300);
+        obj2.elektrikHesabi.ödenecekTutar();
+        System.out.println("obj2 = " + obj2);
 
     }
 
