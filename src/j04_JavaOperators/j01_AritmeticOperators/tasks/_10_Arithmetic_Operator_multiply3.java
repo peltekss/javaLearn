@@ -17,7 +17,8 @@ public class _10_Arithmetic_Operator_multiply3 {
         int num3 = dp.nextInt();
         int num4 = dp.nextInt();
         //Kodu aşağıya yazınız.
-
+        int sonuc = (num1*num2*num3*num4);
+        System.out.println("sonuc = " + sonuc);
 
 
 

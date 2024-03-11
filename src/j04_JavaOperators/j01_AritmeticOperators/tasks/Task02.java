@@ -17,8 +17,21 @@ public class Task02 {
 			1x10=10
 		 */
 
-		int n1 = 2;
-		int n2 = 1;
+
+//		int n1 = 2;
+//		int n2 = 1;
+		int i = 1;
+		System.out.println("1x" + (i++) + "=" + i);
+		System.out.println("1x" + (i++) + "=" + i);
+		System.out.println("1x" + (i++) + "=" + i);
+		System.out.println("1x" + (i++) + "=" + i);
+		System.out.println("1x" + (i++) + "=" + i);
+		System.out.println("1x" + (i++) + "=" + i);
+		System.out.println("1x" + (i++) + "=" + i);
+		System.out.println("1x" + (i++) + "=" + i);
+		System.out.println("1x" + (i++) + "=" + i);
+		System.out.println("1x" + (i++) + "=" + i);
+
 
 
 

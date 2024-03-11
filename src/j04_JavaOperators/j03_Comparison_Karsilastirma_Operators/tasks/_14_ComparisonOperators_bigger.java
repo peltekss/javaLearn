@@ -10,6 +10,10 @@ public class _14_ComparisonOperators_bigger {
                 Console' da 'true' yazısını görmelisiniz.        */
 
         //Kodu aşağıya yazınız.
+        int i1 = 13;
+        int i2 = 10;
+        System.out.println(i1 > i2);
+
 
 
 

@@ -11,6 +11,10 @@ public class _16_ComparisonOperators_small_equal {
            Örnek:   15>=15  */
 
         // Kodu aşağıya yazınız.
+        int ilkInt = 13;
+        int ikinciInt = 13;
+
+        System.out.println(ilkInt + "<=" + ikinciInt + " " + (ilkInt <= ikinciInt));
 
 
     }

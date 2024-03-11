@@ -16,6 +16,8 @@ public class _11_ArithmeticOperator_reminder1 {
         int num2 = dp.nextInt();
 
         //Kodu aşağıya yazınız.
+        int sonuc= (num1/num2);
+        System.out.println("sonuc = " + sonuc);
 
 
 

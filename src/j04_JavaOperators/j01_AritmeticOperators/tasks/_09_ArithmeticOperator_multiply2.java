@@ -18,6 +18,8 @@ public class _09_ArithmeticOperator_multiply2 {
         double num4 = dp.nextDouble();
 
         //Kodu aşağıya yazınız.
+        double sonuc = (num1*num2*num3*num4);
+        System.out.println("sonuc = " + sonuc);
 
 
 

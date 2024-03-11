@@ -14,6 +14,15 @@ public class Task05 {
      */
 
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Lütfen bir saat giriniz: ");
+        int saat = input.nextInt();
+        System.out.println("Lütfen bir dakika giriniz: ");
+        int dk = input.nextInt();
+        System.out.println("Lütfen bir saniye giriniz: ");
+        int saniye = input.nextInt();
+        int sonuc =( (saat * 3600) + (dk * 60) + saniye);
+        System.out.println(sonuc);
 
 
     }

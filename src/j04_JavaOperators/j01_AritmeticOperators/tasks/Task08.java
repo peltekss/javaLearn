@@ -12,6 +12,15 @@ public class Task08 {
      */
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Bir saniye giriniz");
+        int toplamSaniye = scan.nextInt();
+
+        int saat = (toplamSaniye/3600);
+        toplamSaniye %= 3600;
+        int dk = (toplamSaniye%3600)/60;
+        int saniye = (toplamSaniye%60);
+        System.out.println(saat + " saat " + dk + " dakika " + saniye + " saniye");
 
     }
 }

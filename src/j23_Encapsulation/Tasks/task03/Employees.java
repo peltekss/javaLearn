@@ -6,10 +6,10 @@ import java.time.format.DateTimeFormatter;
 
 public class Employees {//outher Class level
 
-//fields..
-  private String  name;
-  private int salary;
-  private String dob;
+    //fields..
+    private String name;
+    private int salary;
+    private String dob;
 //constructor..
 
     public Employees(String name, int salary, String dob) {
@@ -17,17 +17,19 @@ public class Employees {//outher Class level
         this.salary = salary;
         this.dob = dob;
     }
+
     // task method...
-    public int ageCalculator(){//yaş return eden method
+    public int ageCalculator() {//yaş return eden method
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        return Period.between(LocalDate.parse(dob,dtf), LocalDate.now()).getYears();
+        return Period.between(LocalDate.parse(dob, dtf), LocalDate.now()).getYears();
     }
-    public String  yasKontrol(){
-        if (ageCalculator()>18) {
-            return "Welcome to our company "+name+" your salary is "+salary;
-        } else if (ageCalculator()<18) {
+
+    public String yasKontrol() {
+        if (ageCalculator() > 18) {
+            return "Welcome to our company " + name + " your salary is " + salary;
+        } else if (ageCalculator() < 18) {
             return "come back when you are 18 years old";
-        }else return  "we can have inter with you after that you can have a "+ salary+" salary";
+        } else return "we can have inter with you after that you can have a " + salary + " salary";
     }
 
     // getters and setters..
@@ -63,7 +65,8 @@ public class Employees {//outher Class level
         return yasKontrol();
     }
 }//outher class sonu
-class  Runner {//inner class level
+
+class Runner {//inner class level
 
     public static void main(String[] args) {
 

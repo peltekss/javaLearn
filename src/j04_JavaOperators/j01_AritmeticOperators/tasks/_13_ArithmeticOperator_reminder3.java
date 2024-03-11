@@ -18,5 +18,6 @@ public class _13_ArithmeticOperator_reminder3 {
         System.out.println(num1 % num2);
 
 
+
     }
 }

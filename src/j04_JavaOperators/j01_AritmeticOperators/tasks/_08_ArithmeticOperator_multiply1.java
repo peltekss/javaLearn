@@ -16,9 +16,10 @@ public class _08_ArithmeticOperator_multiply1 {
         double num2 = dp.nextDouble();
         double num3 = dp.nextDouble();
 
+
         //Kodu aşağıya yazınız.
-
-
+        double sonuc = (num1 * num2 * num3);
+        System.out.println("sonuç" + sonuc);
 
 
     }

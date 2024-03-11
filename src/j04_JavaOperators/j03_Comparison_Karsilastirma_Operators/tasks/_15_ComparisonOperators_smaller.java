@@ -11,6 +11,9 @@ public class _15_ComparisonOperators_smaller {
             Console'da true yazısını görmelisiniz. */
 
         // Kodu buraya yazınız.
+        int a =17;
+        int b =20;
+        System.out.println(a<b);
 
     }
 }

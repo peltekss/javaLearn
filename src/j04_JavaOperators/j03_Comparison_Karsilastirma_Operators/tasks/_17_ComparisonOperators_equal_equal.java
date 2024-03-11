@@ -16,6 +16,7 @@ public class _17_ComparisonOperators_equal_equal {
         int num2 = dp.nextInt();
 
         // Kodu aşağıya yazınız.
+        System.out.println(num1 == num2);
 
 
     }
