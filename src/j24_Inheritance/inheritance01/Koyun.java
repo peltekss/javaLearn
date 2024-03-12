@@ -1,6 +1,8 @@
-package j24_Inheritance;
+package j24_Inheritance.inheritance01;
 
-public class Koyun extends Memeliler{
+import j24_Inheritance.inheritance01.Memeliler;
+
+public class Koyun extends Memeliler {
     public Koyun() {
         System.out.println("Parametresiz Koyun const call edildi.");
     }

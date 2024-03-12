@@ -1,4 +1,6 @@
-package j24_Inheritance;
+package j24_Inheritance.inheritance01;
+
+import j24_Inheritance.inheritance01.Memeliler;
 
 public class Kedi extends Memeliler {
     public Kedi() {

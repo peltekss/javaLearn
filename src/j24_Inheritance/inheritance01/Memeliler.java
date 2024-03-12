@@ -1,6 +1,6 @@
-package j24_Inheritance;
+package j24_Inheritance.inheritance01;
 
-public class Memeliler extends Hayvanlar{
+public class Memeliler extends Hayvanlar {
     public Memeliler() {
         System.out.println("Parametresiz memeliler const edildi.");
     }

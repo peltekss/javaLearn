@@ -1,6 +1,6 @@
-package j24_Inheritance;
+package j24_Inheritance.inheritance01;
 
-public class Balık extends Hayvanlar{
+public class Balık extends Hayvanlar {
     public Balık() {
         System.out.println("P.siz balık const call edildi.");
     }
