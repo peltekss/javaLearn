@@ -21,9 +21,10 @@ public class Runner {
         //System.out.println("k3.d = " + k3.d);//->CTE->dataType Memeliler class'da ve parent(Hayvanlar) class'da d variable tanimli olmadigi icin
 
         /*
- Ahan da trick köşesinde böğün->inherit edilmiş herhangi bir obj varaible  Data type göre call edilir
- Variable araştırmaya data type Class'dan başlanıp parentlere gidilir.
- */
+        Ahan da trick köşesinde böğün->inherit edilmiş herhangi bir obj varaible  Data type göre call edilir
+        Variable araştırmaya data type Class'dan başlanıp parentlere gidilir.
+        */
+
         System.out.println("*****");
         k1.mA();//mA-> Hayvanlar class meth call edildi
         k1.mC();//mC->Kedi class meth call edildi
@@ -35,6 +36,12 @@ public class Runner {
         System.out.println("*****");
         k3.mA();//mA-> Hayvanlar class meth call edildi
         k3.mM();//mM-> Memeliler class meth call edildi
+        //k3.mC();//-> CTE mC->Kendi classında ve parentta olmayan meth çağrılamadı.
+
+        /*
+        Ahan da trick köşesinde böğün:inherit edilmiş herhangi bir obj methodları  cons. göre call edilir
+        method araştırmaya cons. Class'dan başlanıp parentlere gidilir
+        */
 
 
     }
