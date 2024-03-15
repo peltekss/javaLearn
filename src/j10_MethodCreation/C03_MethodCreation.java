@@ -3,7 +3,7 @@ package j10_MethodCreation;
 import static j10_MethodCreation.C03_MethodDepo.gecmeNotu;
 
 public class C03_MethodCreation {
-    public static void main(String[] args) {//main level -> benim köyüm
+    public static void main(String[] args) {//Deneme level -> benim köyüm
         String hlt = "en hakiki javaci";
         String sema = "javaNAZZZ";
         selamVer();//tanımlandığı class scopta method name ile direct call edilebilir.
@@ -19,7 +19,7 @@ public class C03_MethodCreation {
 
     private static void selamVer() {//Köyümün çalışanı
         System.out.println("Beni köyümün yağmurlarında yıkasınlar");
-        gecmeNotu(55);//main dışına farklı method içine call edildi.
+        gecmeNotu(55);//Deneme dışına farklı method içine call edildi.
     }
     //gecmeNotu(66);method dışına ama meth call işlemi olmaz
 }

@@ -25,7 +25,7 @@ public class Task08 {
         System.out.println(leapYearControl2(yil));
 
 
-    }//main sonu
+    }//Deneme sonu
 
     private static boolean leapYearControl2(int yil) {
         return (yil % 4 == 0 && yil % 100 != 0) || yil % 400 == 0 ? true : false;

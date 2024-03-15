@@ -30,7 +30,7 @@ public class Task07_IfStatement {
 
         } else System.out.println("kan bagısı için yasınız uygun değil");
 
-    }// main sonu
+    }// Deneme sonu
 
 
 }

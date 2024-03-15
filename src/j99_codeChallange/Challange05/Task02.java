@@ -31,6 +31,6 @@ public class Task02 {
 
 
 
-    }//main sonu
+    }//Deneme sonu
 
 }// class sonu

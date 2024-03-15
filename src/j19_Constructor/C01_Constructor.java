@@ -29,9 +29,9 @@ public class C01_Constructor {//class level
         7- bir class'da bir den çok cons. tanımlanabilir.
          */
 
-    public static void main(String[] args) {//main level
+    public static void main(String[] args) {//Deneme level
 
-        String maindekiVariable=" mainden selamlar";//main scope'ta variable create edildi
+        String maindekiVariable=" mainden selamlar";//Deneme scope'ta variable create edildi
         //ClassIsmi    objName = new Constructor -> obj create etmek icin
         C01_Constructor obj1=new C01_Constructor();//Farkli scope'ta ayni isimde obj create edildi
         //C01_Constructor obj1=new C01_Constructor();//ayni scope'ta ayni isimde obj create edilmez
@@ -40,7 +40,7 @@ public class C01_Constructor {//class level
 
         obj1.str="JavaNAZZ";
         obj3.str="JavaHAN";
-        //maindekiVariable main icinde old icin obj olamdan cagiralabilir
+        //maindekiVariable Deneme icinde old icin obj olamdan cagiralabilir
         //selam-> class level'da olan bir variable obj olmadan cagirilamaz
         obj2.selam="Devam edelim";
 
@@ -53,7 +53,7 @@ public class C01_Constructor {//class level
         //nonStaticMeth obj yardimi olmadan static olan meth'larda call edilemez
         obj3.nonStaticMeth();//obj ile nonStaticMeth call edildi
 
-    }//main sonu
+    }//Deneme sonu
 
     public void nonStaticMeth(){
         System.out.println("NonStatic meth'den selamlar");

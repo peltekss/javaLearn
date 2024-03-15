@@ -35,7 +35,7 @@ public class C02_Arac {//class level
                 ", yil=" + yil;
     }
 
-    public static void main(String[] args) {//main level
+    public static void main(String[] args) {//Deneme level
         /*
         Task-> fields: marka,model,km,motorHacim,vitesAotu,ikinciEl,yıl olan
          3 obj  create ederek fields print eden code create ediniz.
@@ -56,5 +56,5 @@ public class C02_Arac {//class level
         System.out.println("arac1 = " + arac1);//j19_Constructor.C02_Arac@32e6e9c3
         System.out.println("arac1 = " + arac1);//marka='Volvo', model='xc90', km=130000, motorHacim=2000, vitesAuto=true, yil=2015
         System.out.println("arac2 = " + arac2);//marka='BMW', model='X6', km=333000, motorHacim=4000, vitesAuto=true, yil=2012
-    }//main sonu
+    }//Deneme sonu
 }//class sonu

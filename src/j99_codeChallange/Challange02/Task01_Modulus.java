@@ -2,7 +2,7 @@ package j99_codeChallange.Challange02;
 
 public class Task01_Modulus {//Class level-scope
 
-    public static void main(String[] args) {//main scope
+    public static void main(String[] args) {//Deneme scope
         // verilen 12345 sayisinin rakamlarini yukaridan asagiya dogru print eden code create ediniz.
         // Hint: use / and %
         //    input: 12345
@@ -20,6 +20,6 @@ public class Task01_Modulus {//Class level-scope
         int onBinler=sayi/10000;//12345/10000=1
         System.out.println("birler :"+birler+"\nonlar : "+onlar+"\nyuzler : "+yuzler+"\nbinler : "+binler+"\nonbinler : "+onBinler);
 
-    }//main sonu
+    }//Deneme sonu
 
 }//Class sonu

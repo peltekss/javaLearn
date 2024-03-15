@@ -29,7 +29,7 @@ public class Task14 {
 
 
 
-    }//main sonu
+    }//Deneme sonu
 
 
 

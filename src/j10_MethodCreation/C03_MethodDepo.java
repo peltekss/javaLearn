@@ -1,7 +1,7 @@
 package j10_MethodCreation;
 
 public class C03_MethodDepo {
-    //her classta main meth. tanimlama zorunlulugu yoktur.Belirli acsiyonlar icin ozel classlar tanimlanir
+    //her classta Deneme meth. tanimlama zorunlulugu yoktur.Belirli acsiyonlar icin ozel classlar tanimlanir
 
     public static void gecmeNotu(int not){
         if (not>=85){

@@ -28,8 +28,8 @@ public class C01_InstanceVariable {//class level
 
 */
 
-    public static void main(String[] args) {//main level
-        //static int kg=99;//class level haricinde main veya başka bir metotta static class variable oluşturulamaz.->CTE
+    public static void main(String[] args) {//Deneme level
+        //static int kg=99;//class level haricinde Deneme veya başka bir metotta static class variable oluşturulamaz.->CTE
         int kg = 99;//initial edilmiş LOCAL vARİABLE
         int id; //initial edilmemiş LOCAL VARİABLE
         //System.out.println(id);//İnitial edilmemis local variable herhangi bir aksiyona tani tutulamaz.->CTE
@@ -39,7 +39,7 @@ public class C01_InstanceVariable {//class level
         prLanguage="Java";
         System.out.println("prLanguage static variable olduğu için obj olmadan doğrudan call edilebilir. "+prLanguage);
         staticMeth();//staticMeth static olduğu için doğrudan call edildi.
-        //nonStaticMeth();//nonStaticMeth main içinde doğrudan call edilemez.
+        //nonStaticMeth();//nonStaticMeth Deneme içinde doğrudan call edilemez.
         C01_InstanceVariable obj1=new C01_InstanceVariable();//obj create edildi.
         obj1.nonStaticMeth();//non-Static meth obj yardımıyla call edildi.
         System.out.println("obj1.boy = " + obj1.boy);//instance variable obje yardımıyla call edildi.
@@ -48,7 +48,7 @@ public class C01_InstanceVariable {//class level
         System.out.println("id = " + id);
 
 
-    }//main sonu
+    }//Deneme sonu
     public static void staticMeth(){
         System.out.println("Static meth run edildi.");
     }

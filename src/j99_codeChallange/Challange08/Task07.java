@@ -7,7 +7,7 @@ public class Task07 {
          *  2D arrayinden min number print den code create ediniz.
          */
 
-    }// main sonu
+    }// Deneme sonu
 
 
 

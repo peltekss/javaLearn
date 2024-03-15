@@ -32,7 +32,7 @@ public class C03_Student {//class level
         this.takdirBelgesi = takdirBelgesi;
     }
 
-    public static void main(String[] args) {//main level
+    public static void main(String[] args) {//Deneme level
         /*
     Task-> fields: ad, soyad, sınıf, ortalama, okulNo, takdirBelgesi olan 2 farklı obj ile
     mezuniyet(ortalama 50 üstü ise mezun oldunuz) sosyalFaaliyet methodlarını  print eden code create ediniz.
@@ -51,7 +51,7 @@ public class C03_Student {//class level
         System.out.println("s1.mezuniyet(s1.ortalama) = " + s1.mezuniyet(s1.ortalama));
         s1.sosyalFaaliyet();
         s2.sosyalFaaliyet();
-    }//main sonu
+    }//Deneme sonu
 
     private void sosyalFaaliyet() {
         System.out.println("Sen evde oturmayi faaliyet mi sandin");

@@ -7,7 +7,7 @@ public class Task06 {
          * Bu iki array'in tum elemanlarinin toplamini print eden code create ediniz.
 
          */
-    }// main sonu
+    }// Deneme sonu
 
 
 

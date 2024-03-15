@@ -14,7 +14,7 @@ public class Task09 {
 
        // int arr[][] = {{1, 3, 6}, {2, 8}, {5, 7, 9, 14}};
 
-    }// main sonu
+    }// Deneme sonu
 
 
 

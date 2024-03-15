@@ -43,5 +43,5 @@ public class Task04_SwitchCase {
                 break;
         }
 
-    }// main sonu
+    }// Deneme sonu
 }

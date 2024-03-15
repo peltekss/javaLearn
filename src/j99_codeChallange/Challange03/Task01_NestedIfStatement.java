@@ -28,5 +28,5 @@ public class Task01_NestedIfStatement {
             System.out.println("Bir kez oy kullanabilir.");
         } else System.out.println("Geçerli bir sayı giriniz");
 
-    }// main sonu
+    }// Deneme sonu
 }

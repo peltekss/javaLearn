@@ -2,7 +2,7 @@ package j99_codeChallange.Challange01;
 
 public class Task01 {//class level
 
-    public static void main(String[] args) {//main level
+    public static void main(String[] args) {//Deneme level
 
         /*
         Task->
@@ -54,7 +54,7 @@ public class Task01 {//class level
         System.out.println("S'\n'U'\n'C'\n'C'\n'E'\n'S'\n'     With     \nC'\n'L'\n'A'\n'R'\n'U'\n'S'\n'W'\n'A'\n'Y  ");
 
 
-    }//main sonu
+    }//Deneme sonu
 
 
 }//Class sonu

@@ -17,7 +17,7 @@ public class Task07 {
         //minSayi(sayi1, sayi2, sayi3);->method voidde iken.
 
 
-    }//main sonu
+    }//Deneme sonu
 
     private static int minSayi(int sayi1, int sayi2, int sayi3) {
         //System.out.println(Math.min(Math.min(sayi1, sayi2),sayi3));-> void iken.

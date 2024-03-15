@@ -3,7 +3,7 @@ package j99_codeChallange.Challange01;
 import java.util.Scanner;
 
 public class Task06_Converting {
-    public static void main(String[] args) {//main scope
+    public static void main(String[] args) {//Deneme scope
         /*  task->
          girilen sıcaklık değerini Fahrenhayt'tan Santigrat derecesine çeviren code create ediniz.
          formül
@@ -16,5 +16,5 @@ public class Task06_Converting {
         System.out.println("agam sıcaklık derecesi : "+(sıcaklık - 32) * 5 / 9);//
 
 
-    }//main sonu
+    }//Deneme sonu
 }//Class sonu

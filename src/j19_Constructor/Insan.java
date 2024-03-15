@@ -28,7 +28,7 @@ public class Insan {
     public Insan() {//psiz const create edildi
     }
 
-    public static void main(String[] args) {//main level
+    public static void main(String[] args) {//Deneme level
         Insan insan1 = new Insan();
         Insan insan2 = new Insan("Sema", 27);
         Insan insan3 = new Insan("Savfet", "Muzaffer");
@@ -40,5 +40,5 @@ public class Insan {
         System.out.println(insan4);//j19_Constructor.Insan@3cbbc1e0
 
 
-    }//main sonu
+    }//Deneme sonu
 }

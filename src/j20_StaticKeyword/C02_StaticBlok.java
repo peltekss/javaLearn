@@ -3,7 +3,7 @@ package j20_StaticKeyword;
 public class C02_StaticBlok {
     /*
    1.static blok yapıları static variable'rı değer ataması update için kullanılır
-   2.static blok Class oluşturulduğunda butun method'lardan(main method dahil) önce çalışır
+   2.static blok Class oluşturulduğunda butun method'lardan(Deneme method dahil) önce çalışır
    3.birden fazla static blok varsa yukarıdan aşagiya sıralama ile çalışır.
    4.static bloklar sadece 1 kere en basta calisir static olmayan bloklar her obje olusturulurken yeniden calisir
     */
@@ -17,12 +17,12 @@ public class C02_StaticBlok {
         System.out.println("2.blok update sonrası isim: " + isim);
     }
 
-    public static void main(String[] args) {//main level
-        System.out.println("***main meth run edilmeye başladı***");
-        System.out.println("main meth. update öncesi isim: " + isim);
+    public static void main(String[] args) {//Deneme level
+        System.out.println("***Deneme meth run edilmeye başladı***");
+        System.out.println("Deneme meth. update öncesi isim: " + isim);
         isim = "JavaMain";
-        System.out.println("***main meth. run bitti*** " + isim);
-    }//main sonu
+        System.out.println("***Deneme meth. run bitti*** " + isim);
+    }//Deneme sonu
 
     static {//ikiinci run edilecek static blok
         System.out.println("*** 1. static blok run edildi");

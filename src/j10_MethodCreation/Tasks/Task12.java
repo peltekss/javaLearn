@@ -18,7 +18,7 @@ public class Task12 {
         "ebıkGabık@gmail.com"-> true
          */
 
-    }//main sonu
+    }//Deneme sonu
 
 
 

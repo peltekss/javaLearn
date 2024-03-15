@@ -16,7 +16,7 @@ public class Task03 {
         donustur(birimVer(), miktarVer());
 
 
-    }//main sonu
+    }//Deneme sonu
 
     private static void donustur(String birim, double miktar) {
         switch (birim) {

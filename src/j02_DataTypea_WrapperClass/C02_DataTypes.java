@@ -50,7 +50,7 @@ public class C02_DataTypes {//class level
         non-primitive'lerde ise degeri ve methodlari vardir.
         5)primitive 'ler renklenirken mavi renklenirken ; non-primitiveler renklenmez.Or: String siyah kalir
      */
-    public static void main(String[] args) {//main level
+    public static void main(String[] args) {//Deneme level
         //hap bilgi-> bir variable'a değer ataması yapılırken data type'a uygun değer veya value atanmalı. Aksi takdirde CTE hatası alınır.
 
         String isim = "Can Yücel";
@@ -109,6 +109,6 @@ public class C02_DataTypes {//class level
         System.out.println(ad + " " + soyisim + " " + yas1);
 
 
-    }//main sonu
+    }//Deneme sonu
 
 }//clas sonu

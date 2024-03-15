@@ -20,7 +20,7 @@ public class Task13 {
         String z = "tio";
 
 
-    }//main sonu
+    }//Deneme sonu
 
 
 }//Class sonu

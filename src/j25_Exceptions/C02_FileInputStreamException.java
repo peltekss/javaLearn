@@ -23,8 +23,8 @@ public class C02_FileInputStreamException {
                 FileNotException'in kullanilmasina gerek yoktur. IOException FileNotFoundException
                 Class'inin parent class Hz.Adem
         */
-    //public static void main(String[] args) throws FileNotFoundException {//main meth signature level exception(throws) zorunlu tanimlandi
-    public static void main(String[] args) throws IOException {//main meth signature level exception(throws) zorunlu tanimlandi
+    //public static void Deneme(String[] args) throws FileNotFoundException {//Deneme meth signature level exception(throws) zorunlu tanimlandi
+    public static void main(String[] args) throws IOException {//Deneme meth signature level exception(throws) zorunlu tanimlandi
         FileInputStream fis=new FileInputStream("src/j25_Exceptions/ebikGabik");
         //fis-> path(yolu:kaynagı) tanımlanan file erişim saglayan obj create edildi
         // FileNotFoundException -> erişilmesi gereken filepath (dosya kaynagı) yanlışsa isitisnası:adres yanlışsa

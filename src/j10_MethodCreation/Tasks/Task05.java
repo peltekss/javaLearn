@@ -16,7 +16,7 @@ public class Task05 {
         dortIslem(islem, sayi1, sayi2);
 
 
-    }//main sonu
+    }//Deneme sonu
 
     private static void dortIslem(char islem, int sayi1, int sayi2) {
         switch (islem) {

@@ -2,7 +2,7 @@ package j99_codeChallange.Challange01;
 
 public class Task02 {//Class level-scope
 
-    public static void main(String[] args) {//main level
+    public static void main(String[] args) {//Deneme level
 
      /*
     Task->
@@ -32,6 +32,6 @@ public class Task02 {//Class level-scope
 
 
 
-    }//main sonu
+    }//Deneme sonu
 
 }//class sonu

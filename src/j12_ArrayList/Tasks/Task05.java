@@ -19,7 +19,7 @@ public class Task05 {
         
 
 
-    }//main sonu
+    }//Deneme sonu
 
     private static void yeniList(String[][] isimArr) {
         List<String> isimList = new ArrayList<>();

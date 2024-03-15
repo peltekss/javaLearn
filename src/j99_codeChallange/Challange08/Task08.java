@@ -9,7 +9,7 @@ public class Task08 {
          *  String de € varsa 4.2 ile carp
          *  elemanlarin toplamini print eden code create ediniz.
          */
-    }// main sonu
+    }// Deneme sonu
 
 
 

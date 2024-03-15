@@ -15,7 +15,7 @@ public class Task07 {
 
 
 
-    }// main sonu
+    }// Deneme sonu
 
 
 

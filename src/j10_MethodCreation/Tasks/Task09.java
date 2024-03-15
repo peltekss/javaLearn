@@ -12,6 +12,6 @@ public class Task09 {
 
 
 
-    }//main sonu
+    }//Deneme sonu
 
 }// Class sonu

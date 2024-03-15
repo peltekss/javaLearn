@@ -27,7 +27,7 @@ public class Task05_IfStatement {
 
         } else System.out.println("adıdeşş adam gibi bişey gir bakenn");
 
-    }// main sonu
+    }// Deneme sonu
 
 
 }

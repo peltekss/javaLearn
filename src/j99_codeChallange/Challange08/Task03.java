@@ -10,7 +10,7 @@ public class Task03 {
         // 1. yol-> cincix code
 
 
-    }// main sonu
+    }// Deneme sonu
 
 
 

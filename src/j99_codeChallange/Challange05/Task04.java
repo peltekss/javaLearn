@@ -22,6 +22,6 @@ public class Task04 {
 
 
 
-    }// main sonu
+    }// Deneme sonu
 }// class sonu
 

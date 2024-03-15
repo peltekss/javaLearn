@@ -18,5 +18,5 @@ public class Task05_NestedIfTernary {
                 (rkm == 7) ? "seven" : (rkm == 8) ? "eight" : (rkm == 9) ? "nine" : "": "Geçersiz");
 
 
-    }// main sonu
+    }// Deneme sonu
 }

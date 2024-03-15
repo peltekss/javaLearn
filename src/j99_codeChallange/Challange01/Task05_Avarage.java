@@ -2,7 +2,7 @@ package j99_codeChallange.Challange01;
 
 public class Task05_Avarage {//Class scope
 
-    public static void main(String[] args) {//main level
+    public static void main(String[] args) {//Deneme level
                 /* task->
         double num1 = 23.4;
         double num2 = 24.0;
@@ -26,5 +26,5 @@ public class Task05_Avarage {//Class scope
         System.out.println("girlen sayıların ortalaması : "+ortalama);// 4701.9400000000005
 
 
-    }//main sonu
+    }//Deneme sonu
 }//Class sonu

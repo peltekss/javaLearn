@@ -1,7 +1,7 @@
 package j99_codeChallange.Challange01;
 
 public class Task04_VariableCreate {
-    public static void main(String[] args) {//main level
+    public static void main(String[] args) {//Deneme level
         // dataType variableName      =  initializing(ilk değer(value) atama)   ;
         int yas = 49;
 
@@ -29,5 +29,5 @@ public class Task04_VariableCreate {
         y = 50;
 
         System.out.println(x + " " + y);//44 50
-    }//main sonu
+    }//Deneme sonu
 }//Class sonu

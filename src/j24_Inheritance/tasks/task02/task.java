@@ -12,7 +12,7 @@ public class task {
    javaCAN  method create edip : SubClass'daki ebikGabık methodunu ve SuperClasstaki ebikGabık
     methodunu call edip SubClass  ve SuperClass'taki int sayi print ediniz.
 
-     son olarak main methodta  javaCAN u call ediniz..
+     son olarak Deneme methodta  javaCAN u call ediniz..
 
 
     output:

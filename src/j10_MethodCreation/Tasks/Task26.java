@@ -10,7 +10,7 @@ public class Task26 {
 
 
 
-    }//main sonu
+    }//Deneme sonu
 
 
 }

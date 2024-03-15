@@ -10,7 +10,7 @@ public class Task02 {
          * Output2 : 5,6,7
          */
 
-    }// main sonu
+    }// Deneme sonu
 
 
 

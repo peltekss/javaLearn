@@ -35,7 +35,7 @@ public class Task06 {
         }
 
  
-    }//main sonu
+    }//Deneme sonu
 
     private static void üçgenevresi(int boyut1, int boyut2, int boyut3) {
         System.out.println("Üçgenin çevresi: "+ (boyut1+boyut2+boyut3));

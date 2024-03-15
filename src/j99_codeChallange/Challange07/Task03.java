@@ -9,5 +9,5 @@ public class Task03 {
     public static void main(String[] args) {
 
 
-    }//main sonu
+    }//Deneme sonu
 }//class sonu

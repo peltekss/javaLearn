@@ -17,7 +17,7 @@ public class Task23 {
 
 
 
-    }//main sonu
+    }//Deneme sonu
 
 
 

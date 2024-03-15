@@ -3,7 +3,7 @@ package j10_MethodCreation.Tasks;
 import java.util.Scanner;
 
 public class Task02 {
-    public static void main(String[] args) {// main level
+    public static void main(String[] args) {// Deneme level
         //task-> girilen ad ve soyadın ilk harfleri buyuk diğer harflerini küçük print eden METHOD create ediniz
 //        Scanner scan=new Scanner(System.in);
 //        System.out.println("Adinizi giriniz");
@@ -16,7 +16,7 @@ public class Task02 {
         System.out.println("adSoyadKontrol3() = " + adSoyadKontrol3());
 
 
-    }//main sonu
+    }//Deneme sonu
 
     private static String adSoyadKontrol3() {
         Scanner scan=new Scanner(System.in);

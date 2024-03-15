@@ -8,7 +8,7 @@ public class Task01 {
 
 
 
-    }//main sonu
+    }//Deneme sonu
 
 
 

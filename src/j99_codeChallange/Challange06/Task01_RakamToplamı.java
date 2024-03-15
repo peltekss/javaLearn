@@ -19,6 +19,6 @@ public class Task01_RakamToplamı {
         }
         System.out.println(toplam);
 
-    } // main sonu
+    } // Deneme sonu
 
 }// Class sonu

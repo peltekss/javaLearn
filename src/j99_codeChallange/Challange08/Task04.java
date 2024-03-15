@@ -10,7 +10,7 @@ public class Task04 {
          */
         int[] arr = {5, 7, -6, 4, 2, 15, 3, 8, 1};
 
-    }// main sonu
+    }// Deneme sonu
 
 
 
